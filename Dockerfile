@@ -32,6 +32,7 @@ RUN pip install https://github.com/brightway-lca/bw_processing/archive/master.zi
 RUN pip install https://github.com/brightway-lca/matrix_utils/archive/main.zip
 RUN pip install https://github.com/brightway-lca/brightway2-calc/archive/master.zip
 RUN pip install https://github.com/brightway-lca/brightway2-data/archive/master.zip
+RUN pip install https://github.com/brightway-lca/brightway2-io/archive/master.zip
 
 USER $NB_UID
 
